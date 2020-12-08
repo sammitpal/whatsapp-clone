@@ -1,0 +1,22 @@
+.sidebar_chatRow{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #ebebeb;
+    text-decoration: none;
+    color: #000;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 70%;
+    margin-left: 20px;
+
+}
+.sidebar_chatRow:hover{
+    background-color: #ebebeb;
+}

@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.login_container {
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  box-shadow: -1px 3px 10px -4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.login_container > img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.login_container > Button {
+  margin-top: 20px;
+  background-color: #0a8d48 !important;
+  color: white !important;
+  font-weight: 800;
+}
